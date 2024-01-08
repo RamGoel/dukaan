@@ -5,6 +5,7 @@ import SectionHead from '../../components/section-head/section-head.component'
 import TableActionBar from '../../components/table-action-bar/table-action-bar.component'
 import TableHeader from '../../components/table-header/table-header.component'
 import TableBody from '../../components/table-body/table-body.component'
+import Pagination from '../../components/pagination/pagination.component'
 
 const TransactionPage = () => {
   return (
@@ -21,6 +22,7 @@ const TransactionPage = () => {
                   <TableHeader />
                   <TableBody />
               </table>
+              <Pagination />
           </div>
     </div>
   )

@@ -5,10 +5,10 @@ import Header from '../../components/header/header.component'
 const DashboardLayout = ({component}) => {
     return (
         <div className='flex'>
-            <div className='w-1/5'>
+            <div className='hidden md:block w-1/5'>
                 <Sidebar />
             </div>
-            <div className='w-4/5'>
+            <div className='w-screen md:w-4/5'>
                 <Header />
                 {component}
             </div>

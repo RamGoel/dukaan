@@ -11,12 +11,12 @@ const StoreData = {
 }
 const SidebarMeta = () => {
     return (
-        <div className='flex items-center p-2'>
-            <div className='bg-white rounded-md w-[50px] flex items-center justify-center h-[50px]'>
+        <div className='flex items-center p-1'>
+            <div className='bg-white rounded-md w-[45px] flex items-center justify-center h-[45px]'>
                 <img src={StoreData.image} alt='store' className='w-[90%] ' />
             </div>
             <div className='w-[50%] mx-auto'>
-                <h4 className='text-md text-white'>{StoreData.name}</h4>
+                <h4 className='text-md text-white text-sm'>{StoreData.name}</h4>
                 <a href={StoreData.link.url} className='text-xs mt-2 underline text-gray-200'>{StoreData.link.title}</a>
             </div>
             <div className='w-[10%]'>

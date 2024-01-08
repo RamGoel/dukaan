@@ -12,7 +12,7 @@ const Header = () => {
                 <div className='w-[100px]'>
                     <p className='text-md m-0 p-0 ml-1'>Payments</p>
                 </div>
-                <div className='w-[120px] flex items-center justify-center'>
+                <div className='hidden md:flex w-[120px] items-center justify-center'>
                     <HelpIcon size={15} />
                     <p className='text-sm m-0 p-0 ml-1'>How it works</p>
                 </div>
