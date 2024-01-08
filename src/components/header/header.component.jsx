@@ -10,16 +10,16 @@ const Header = () => {
         <div className='w-full border-b-[1.5px] flex items-center p-3 '>
             <div className='w-1/3 flex items-center justify-start'>
                 <div className='w-[100px]'>
-                    Payments
+                    <p className='text-md m-0 p-0 ml-1'>Payments</p>
                 </div>
-                <div className='w-[100px] flex items-center justify-center'>
+                <div className='w-[120px] flex items-center justify-center'>
                     <HelpIcon size={15} />
                     <p className='text-sm m-0 p-0 ml-1'>How it works</p>
                 </div>
             </div>
 
             <div className='w-1/3'>
-                <SearchInput />
+                <SearchInput placeholder='Search features, tutorials, etc.' customClass='bg-gray-100' />
             </div>
 
             <div className='w-1/3 mx-2 flex items-center justify-end'>
