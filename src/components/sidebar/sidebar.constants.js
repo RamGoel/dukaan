@@ -1,7 +1,7 @@
-import DeliveryIcon from "../../media/icons/delivery.icon";
-import HomeIcon from "../../media/icons/home.icon";
-import MarketingIcon from "../../media/icons/marketing.icon";
-import OrdersIcon from "../../media/icons/orders.icon";
+import DeliveryIcon from "../../media/icons/DeliveryIcon";
+import HomeIcon from "../../media/icons/HomeIcon";
+import MarketingIcon from "../../media/icons/MarketingIcon";
+import OrdersIcon from "../../media/icons/OrdersIcon";
 
 export const sidebarLinksConfig = [
     {

@@ -1,7 +1,7 @@
 import { ArrowDown2 } from 'iconsax-react';
 import React from 'react'
-import HomeIcon from '../../../../media/icons/home.icon';
-import DownArrowIcon from '../../../../media/icons/down-arrow.icon';
+import HomeIcon from '../../../../media/icons/HomeIcon';
+import DownArrowIcon from '../../../../media/icons/DownArrowIcon';
 
 const StoreData = {
     image: require('../../../../media/logo.png'),

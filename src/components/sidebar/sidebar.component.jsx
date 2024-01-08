@@ -5,7 +5,7 @@ import SidebarLink from './atoms/sidebar-link/sidebar-link.component'
 
 const Sidebar = () => {
   return (
-    <div className='h-screen p-4 w-1/5 bg-blue-950'>  
+    <div className='h-screen p-4 w-full bg-blue-950'>  
       <SidebarMeta />
       {
         sidebarLinksConfig.map(item => {
