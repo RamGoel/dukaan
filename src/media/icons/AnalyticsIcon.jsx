@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AnalyticsIcon = ({ size = 14 }) => {
+const AnalyticsIcon = ({ size = 18 }) => {
     return (
         <svg width={size} height={size - 2} viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6626 8.9376C1.6626 8.50958 2.00958 8.1626 2.4376 8.1626H6.8126C7.24062 8.1626 7.5876 8.50958 7.5876 8.9376C7.5876 9.36562 7.24062 9.7126 6.8126 9.7126H3.2126V14.5626C3.2126 14.9906 2.86562 15.3376 2.4376 15.3376C2.00958 15.3376 1.6626 14.9906 1.6626 14.5626V8.9376Z" fill="white" />
